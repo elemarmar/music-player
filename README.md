@@ -10,7 +10,7 @@ A simple personalised music player built using CSS, HTML and JS. It currently of
 
 ---
 
-## Goals
+## Learning outcome
 
 - Use of `object-fit` to center the image from the cover #css
 - `user-select: none` prevents the control icons to be selected like normal letters  #css
@@ -22,7 +22,7 @@ A simple personalised music player built using CSS, HTML and JS. It currently of
 
 ---
 
-## FEATURES
+## Features
 
 1. There are 4 songs that display different artist, song name and cover apart from the song being played
 2. The user can control the music (play, pause, next song or previous song)
@@ -68,7 +68,7 @@ Since we want the controls of the music player to be personalised we create extr
 
 For this we use JS and make use of the HTML Audio methods `play()` and  `pause()`. 
 
-For the case of next and previous song we manipulate both the image, the track information on screen (artist and title) and the audio source by creating a `music` object:
+For the case of next and previous song we manipulate both the image, the track information on screen (artist and title) and the audio source by creating a `songs` object:
 
 ```js
 // Music Songs
