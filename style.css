@@ -66,10 +66,9 @@ h3 {
 }
 
 .progress {
-  background: #242323;
+  background: rgb(73, 96, 109);
   border-radius: 5px;
   height: 100%;
-  /* change this to show progress */
   width: 0%;
   transition: width 0.1s linear;
 }
@@ -91,7 +90,7 @@ h3 {
 
 .fas {
   font-size: 30px;
-  color: rgb(129, 129, 129);
+  color: rgb(130, 144, 151);
   margin-right: 30px;
   cursor: pointer;
   user-select: none;
